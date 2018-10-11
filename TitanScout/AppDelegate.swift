@@ -12,6 +12,7 @@ import Firebase
 @UIApplicationMain
 
 // new commit
+// another commit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 	var window: UIWindow?
