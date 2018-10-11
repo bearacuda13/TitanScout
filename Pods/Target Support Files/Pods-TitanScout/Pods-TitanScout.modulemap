@@ -1,0 +1,6 @@
+framework module Pods_TitanScout {
+  umbrella header "Pods-TitanScout-umbrella.h"
+
+  export *
+  module * { export * }
+}
