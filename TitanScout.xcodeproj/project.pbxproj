@@ -7,23 +7,104 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C0BC5962033997700D6D71D /* GrowingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BC5952033997700D6D71D /* GrowingTextView.swift */; };
+		3C1A93BA2070394300E4BCE4 /* StarBit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1A93B92070394300E4BCE4 /* StarBit.swift */; };
 		3C239129202A88E20016C036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C239128202A88E20016C036 /* AppDelegate.swift */; };
-		3C23912B202A88E20016C036 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C23912A202A88E20016C036 /* FirstViewController.swift */; };
-		3C23912D202A88E20016C036 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C23912C202A88E20016C036 /* SecondViewController.swift */; };
 		3C239130202A88E20016C036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C23912E202A88E20016C036 /* Main.storyboard */; };
 		3C239132202A88E20016C036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C239131202A88E20016C036 /* Assets.xcassets */; };
 		3C239135202A88E20016C036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C239133202A88E20016C036 /* LaunchScreen.storyboard */; };
+		3C29B20120463E100051B582 /* TextFieldBit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C29B20020463E100051B582 /* TextFieldBit.swift */; };
+		3C29B20320463F0A0051B582 /* DividerBit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C29B20220463F0A0051B582 /* DividerBit.swift */; };
+		3C2B4C4C202BE549009FDA48 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B4C4B202BE549009FDA48 /* EditViewController.swift */; };
+		3C2B4C4E202BE575009FDA48 /* Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B4C4D202BE575009FDA48 /* Fetch.swift */; };
+		3C2B4C50202BE773009FDA48 /* MatchesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B4C4F202BE773009FDA48 /* MatchesTableViewController.swift */; };
+		3C2B4C52202BE9D8009FDA48 /* MatchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B4C51202BE9D8009FDA48 /* MatchTableViewCell.swift */; };
+		3C315ABF203A0106007397AD /* StepBit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C315ABE203A0106007397AD /* StepBit.swift */; };
+		3C3C2989203546EB004D2BA0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C3C2988203546EB004D2BA0 /* GoogleService-Info.plist */; };
+		3C676EE22076BA9000C4EE8F /* RankingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C676EE12076BA8F00C4EE8F /* RankingsTableViewController.swift */; };
+		3C676EE62076D10200C4EE8F /* DemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C676EE52076D10200C4EE8F /* DemoCell.swift */; };
+		3C676EE92077007800C4EE8F /* RankTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C676EE82077007800C4EE8F /* RankTableViewCell.swift */; };
+		3C920C35202F74CD00C6C786 /* GMStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C920C34202F74CD00C6C786 /* GMStepper.swift */; };
+		3C920C37203271D100C6C786 /* AddMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C920C36203271D100C6C786 /* AddMatchViewController.swift */; };
+		3C92C5292068133C00C896BD /* MatchProgressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C92C5282068133C00C896BD /* MatchProgressCell.swift */; };
+		3C92C52B2068158900C896BD /* AutoMatchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C92C52A2068158900C896BD /* AutoMatchTableViewController.swift */; };
+		3C92C52D20681F4800C896BD /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C92C52C20681F4800C896BD /* SCLAlertView.swift */; };
+		3C92C52F2068801B00C896BD /* AutoMatchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C92C52E2068801B00C896BD /* AutoMatchTableViewCell.swift */; };
+		3C92C53120688A9600C896BD /* MLVerticalProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C92C53020688A9600C896BD /* MLVerticalProgressView.swift */; };
+		3CB6F09F2037AFD1005B86E5 /* SweetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB6F09E2037AFD1005B86E5 /* SweetAlert.swift */; };
+		3CBF1F0E202E65DA00815002 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBF1F0D202E65DA00815002 /* Switch.swift */; };
+		3CBF1F12202E75FA00815002 /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBF1F11202E75FA00815002 /* TeamTableViewCell.swift */; };
+		3CBF1F14202F655100815002 /* StatsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBF1F13202F655100815002 /* StatsTableViewController.swift */; };
+		3CBF1F16202F66A800815002 /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBF1F15202F66A800815002 /* ChartsViewController.swift */; };
+		3CDB232A206B0D160026FFC8 /* SJFluidSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB231F206B0C2C0026FFC8 /* SJFluidSegmentedControl.swift */; };
+		3CDB232B206B0D160026FFC8 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2321206B0C2C0026FFC8 /* UIView+Constraints.swift */; };
+		3CDB232C206B0D160026FFC8 /* SJGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2320206B0C2C0026FFC8 /* SJGradientView.swift */; };
+		3CE634E7203B5213000C45F3 /* Bit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE634E6203B5213000C45F3 /* Bit.swift */; };
+		3CE634EB203B72DA000C45F3 /* StopwatchBit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE634EA203B72DA000C45F3 /* StopwatchBit.swift */; };
+		3CF31101204CE8F900AF3CC7 /* SegmentBit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF31100204CE8F900AF3CC7 /* SegmentBit.swift */; };
+		3CF31105204CEF7800AF3CC7 /* TTSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF31104204CEF7800AF3CC7 /* TTSegmentedControl.swift */; };
+		46A6391C9F06CB6C3F71E743 /* Pods_TitanScout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1F921753B79E3F54CAD6A1 /* Pods_TitanScout.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C0BC5952033997700D6D71D /* GrowingTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowingTextView.swift; sourceTree = "<group>"; };
+		3C1A93B92070394300E4BCE4 /* StarBit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarBit.swift; sourceTree = "<group>"; };
 		3C239125202A88E20016C036 /* TitanScout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TitanScout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C239128202A88E20016C036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3C23912A202A88E20016C036 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		3C23912C202A88E20016C036 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		3C23912F202A88E20016C036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C239131202A88E20016C036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C239134202A88E20016C036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C239136202A88E20016C036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C286B372070A02B008F0334 /* CentralMoment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralMoment.swift; sourceTree = "<group>"; };
+		3C286B382070A02B008F0334 /* CoefficientVariation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoefficientVariation.swift; sourceTree = "<group>"; };
+		3C286B392070A02B008F0334 /* Covariance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covariance.swift; sourceTree = "<group>"; };
+		3C286B3A2070A02B008F0334 /* Frequencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frequencies.swift; sourceTree = "<group>"; };
+		3C286B3B2070A02B008F0334 /* Kurtosis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kurtosis.swift; sourceTree = "<group>"; };
+		3C286B3C2070A02B008F0334 /* Median.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Median.swift; sourceTree = "<group>"; };
+		3C286B3D2070A02B008F0334 /* Normal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Normal.swift; sourceTree = "<group>"; };
+		3C286B3E2070A02B008F0334 /* Pearson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pearson.swift; sourceTree = "<group>"; };
+		3C286B3F2070A02B008F0334 /* Percentile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Percentile.swift; sourceTree = "<group>"; };
+		3C286B402070A02B008F0334 /* Quantiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quantiles.swift; sourceTree = "<group>"; };
+		3C286B412070A02B008F0334 /* Rank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rank.swift; sourceTree = "<group>"; };
+		3C286B422070A02B008F0334 /* Sigma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sigma.swift; sourceTree = "<group>"; };
+		3C286B432070A02B008F0334 /* Skewness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skewness.swift; sourceTree = "<group>"; };
+		3C286B442070A02B008F0334 /* StandardDeviation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardDeviation.swift; sourceTree = "<group>"; };
+		3C286B452070A02B008F0334 /* StandardErrorOfTheMean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardErrorOfTheMean.swift; sourceTree = "<group>"; };
+		3C286B462070A02B008F0334 /* UniqueValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueValues.swift; sourceTree = "<group>"; };
+		3C286B472070A02B008F0334 /* Variance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variance.swift; sourceTree = "<group>"; };
+		3C29B20020463E100051B582 /* TextFieldBit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBit.swift; sourceTree = "<group>"; };
+		3C29B20220463F0A0051B582 /* DividerBit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerBit.swift; sourceTree = "<group>"; };
+		3C2B4C4B202BE549009FDA48 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		3C2B4C4D202BE575009FDA48 /* Fetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch.swift; sourceTree = "<group>"; };
+		3C2B4C4F202BE773009FDA48 /* MatchesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MatchesTableViewController.swift; path = /Users/Ian/Documents/TitanScout/TitanScout/TableViewControllers/MatchesTableViewController.swift; sourceTree = "<absolute>"; };
+		3C2B4C51202BE9D8009FDA48 /* MatchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchTableViewCell.swift; sourceTree = "<group>"; };
+		3C315ABE203A0106007397AD /* StepBit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepBit.swift; sourceTree = "<group>"; };
+		3C3C2988203546EB004D2BA0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3C676EE12076BA8F00C4EE8F /* RankingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingsTableViewController.swift; sourceTree = "<group>"; };
+		3C676EE52076D10200C4EE8F /* DemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCell.swift; sourceTree = "<group>"; };
+		3C676EE82077007800C4EE8F /* RankTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankTableViewCell.swift; sourceTree = "<group>"; };
+		3C920C34202F74CD00C6C786 /* GMStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GMStepper.swift; path = "../../../../Downloads/GMStepper-master/GMStepper/GMStepper.swift"; sourceTree = "<group>"; };
+		3C920C36203271D100C6C786 /* AddMatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMatchViewController.swift; sourceTree = "<group>"; };
+		3C92C5282068133C00C896BD /* MatchProgressCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchProgressCell.swift; sourceTree = "<group>"; };
+		3C92C52A2068158900C896BD /* AutoMatchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoMatchTableViewController.swift; sourceTree = "<group>"; };
+		3C92C52C20681F4800C896BD /* SCLAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
+		3C92C52E2068801B00C896BD /* AutoMatchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoMatchTableViewCell.swift; sourceTree = "<group>"; };
+		3C92C53020688A9600C896BD /* MLVerticalProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLVerticalProgressView.swift; sourceTree = "<group>"; };
+		3CB6F09E2037AFD1005B86E5 /* SweetAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetAlert.swift; sourceTree = "<group>"; };
+		3CBF1F0D202E65DA00815002 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
+		3CBF1F11202E75FA00815002 /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
+		3CBF1F13202F655100815002 /* StatsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsTableViewController.swift; sourceTree = "<group>"; };
+		3CBF1F15202F66A800815002 /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
+		3CDB231F206B0C2C0026FFC8 /* SJFluidSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SJFluidSegmentedControl.swift; path = SJFluidSegmentedControl/SJFluidSegmentedControl/Classes/SJFluidSegmentedControl.swift; sourceTree = "<group>"; };
+		3CDB2320206B0C2C0026FFC8 /* SJGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJGradientView.swift; sourceTree = "<group>"; };
+		3CDB2321206B0C2C0026FFC8 /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		3CE634E6203B5213000C45F3 /* Bit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bit.swift; sourceTree = "<group>"; };
+		3CE634EA203B72DA000C45F3 /* StopwatchBit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchBit.swift; sourceTree = "<group>"; };
+		3CF31100204CE8F900AF3CC7 /* SegmentBit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentBit.swift; sourceTree = "<group>"; };
+		3CF31104204CEF7800AF3CC7 /* TTSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSegmentedControl.swift; sourceTree = "<group>"; };
+		612A457E617CE73D783D3907 /* Pods-TitanScout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TitanScout.release.xcconfig"; path = "Pods/Target Support Files/Pods-TitanScout/Pods-TitanScout.release.xcconfig"; sourceTree = "<group>"; };
+		A93BDBD61D6A20F83E1AF3AC /* Pods-TitanScout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TitanScout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TitanScout/Pods-TitanScout.debug.xcconfig"; sourceTree = "<group>"; };
+		AD1F921753B79E3F54CAD6A1 /* Pods_TitanScout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TitanScout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46A6391C9F06CB6C3F71E743 /* Pods_TitanScout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +124,8 @@
 			children = (
 				3C239127202A88E20016C036 /* TitanScout */,
 				3C239126202A88E20016C036 /* Products */,
+				A8856624FC71940A636FB1E6 /* Pods */,
+				8A130E45ABC51003B8C8CEB8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +141,126 @@
 			isa = PBXGroup;
 			children = (
 				3C239128202A88E20016C036 /* AppDelegate.swift */,
-				3C23912A202A88E20016C036 /* FirstViewController.swift */,
-				3C23912C202A88E20016C036 /* SecondViewController.swift */,
+				3C2B4C4D202BE575009FDA48 /* Fetch.swift */,
+				3C3C2988203546EB004D2BA0 /* GoogleService-Info.plist */,
+				3CBF1F18202F70AF00815002 /* Dependencies */,
+				3CBF1F17202F709E00815002 /* Cells */,
+				3CA6A38E202D331A001E6D9A /* TableViewControllers */,
+				3C554220206D5DEA00C17365 /* ViewControllers */,
+				3C315ABD203A009F007397AD /* Bits */,
 				3C23912E202A88E20016C036 /* Main.storyboard */,
 				3C239131202A88E20016C036 /* Assets.xcassets */,
 				3C239133202A88E20016C036 /* LaunchScreen.storyboard */,
 				3C239136202A88E20016C036 /* Info.plist */,
 			);
 			path = TitanScout;
+			sourceTree = "<group>";
+		};
+		3C286B482070A02B008F0334 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				3C286B372070A02B008F0334 /* CentralMoment.swift */,
+				3C286B382070A02B008F0334 /* CoefficientVariation.swift */,
+				3C286B392070A02B008F0334 /* Covariance.swift */,
+				3C286B3A2070A02B008F0334 /* Frequencies.swift */,
+				3C286B3B2070A02B008F0334 /* Kurtosis.swift */,
+				3C286B3C2070A02B008F0334 /* Median.swift */,
+				3C286B3D2070A02B008F0334 /* Normal.swift */,
+				3C286B3E2070A02B008F0334 /* Pearson.swift */,
+				3C286B3F2070A02B008F0334 /* Percentile.swift */,
+				3C286B402070A02B008F0334 /* Quantiles.swift */,
+				3C286B412070A02B008F0334 /* Rank.swift */,
+				3C286B422070A02B008F0334 /* Sigma.swift */,
+				3C286B432070A02B008F0334 /* Skewness.swift */,
+				3C286B442070A02B008F0334 /* StandardDeviation.swift */,
+				3C286B452070A02B008F0334 /* StandardErrorOfTheMean.swift */,
+				3C286B462070A02B008F0334 /* UniqueValues.swift */,
+				3C286B472070A02B008F0334 /* Variance.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		3C315ABD203A009F007397AD /* Bits */ = {
+			isa = PBXGroup;
+			children = (
+				3CE634E6203B5213000C45F3 /* Bit.swift */,
+				3C315ABE203A0106007397AD /* StepBit.swift */,
+				3CE634EA203B72DA000C45F3 /* StopwatchBit.swift */,
+				3C29B20020463E100051B582 /* TextFieldBit.swift */,
+				3C29B20220463F0A0051B582 /* DividerBit.swift */,
+				3C1A93B92070394300E4BCE4 /* StarBit.swift */,
+				3CF31100204CE8F900AF3CC7 /* SegmentBit.swift */,
+			);
+			path = Bits;
+			sourceTree = "<group>";
+		};
+		3C554220206D5DEA00C17365 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3C920C36203271D100C6C786 /* AddMatchViewController.swift */,
+				3C2B4C4B202BE549009FDA48 /* EditViewController.swift */,
+				3CBF1F15202F66A800815002 /* ChartsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3CA6A38E202D331A001E6D9A /* TableViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3C92C52A2068158900C896BD /* AutoMatchTableViewController.swift */,
+				3CBF1F13202F655100815002 /* StatsTableViewController.swift */,
+				3C2B4C4F202BE773009FDA48 /* MatchesTableViewController.swift */,
+				3C676EE12076BA8F00C4EE8F /* RankingsTableViewController.swift */,
+			);
+			path = TableViewControllers;
+			sourceTree = "<group>";
+		};
+		3CBF1F17202F709E00815002 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3CBF1F11202E75FA00815002 /* TeamTableViewCell.swift */,
+				3C92C5282068133C00C896BD /* MatchProgressCell.swift */,
+				3C92C52E2068801B00C896BD /* AutoMatchTableViewCell.swift */,
+				3C676EE82077007800C4EE8F /* RankTableViewCell.swift */,
+				3C2B4C51202BE9D8009FDA48 /* MatchTableViewCell.swift */,
+				3C676EE52076D10200C4EE8F /* DemoCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3CBF1F18202F70AF00815002 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				3CBF1F0D202E65DA00815002 /* Switch.swift */,
+				3C920C34202F74CD00C6C786 /* GMStepper.swift */,
+				3C0BC5952033997700D6D71D /* GrowingTextView.swift */,
+				3CB6F09E2037AFD1005B86E5 /* SweetAlert.swift */,
+				3C92C52C20681F4800C896BD /* SCLAlertView.swift */,
+				3CF31104204CEF7800AF3CC7 /* TTSegmentedControl.swift */,
+				3C92C53020688A9600C896BD /* MLVerticalProgressView.swift */,
+				3CDB231F206B0C2C0026FFC8 /* SJFluidSegmentedControl.swift */,
+				3CDB2320206B0C2C0026FFC8 /* SJGradientView.swift */,
+				3CDB2321206B0C2C0026FFC8 /* UIView+Constraints.swift */,
+				3C286B482070A02B008F0334 /* Stats */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		8A130E45ABC51003B8C8CEB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD1F921753B79E3F54CAD6A1 /* Pods_TitanScout.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8856624FC71940A636FB1E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A93BDBD61D6A20F83E1AF3AC /* Pods-TitanScout.debug.xcconfig */,
+				612A457E617CE73D783D3907 /* Pods-TitanScout.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +270,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C239139202A88E20016C036 /* Build configuration list for PBXNativeTarget "TitanScout" */;
 			buildPhases = (
+				1717D3D1B1935AC6582127EF /* [CP] Check Pods Manifest.lock */,
 				3C239121202A88E20016C036 /* Sources */,
 				3C239122202A88E20016C036 /* Frameworks */,
 				3C239123202A88E20016C036 /* Resources */,
+				9D42DFC23AF433E330B89497 /* [CP] Embed Pods Frameworks */,
+				99B09516FD50F34F61A86E7C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -94,7 +293,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Ian Fowlercom.example";
 				TargetAttributes = {
 					3C239124202A88E20016C036 = {
@@ -129,19 +328,119 @@
 				3C239135202A88E20016C036 /* LaunchScreen.storyboard in Resources */,
 				3C239132202A88E20016C036 /* Assets.xcassets in Resources */,
 				3C239130202A88E20016C036 /* Main.storyboard in Resources */,
+				3C3C2989203546EB004D2BA0 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1717D3D1B1935AC6582127EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TitanScout-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99B09516FD50F34F61A86E7C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TitanScout/Pods-TitanScout-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D42DFC23AF433E330B89497 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TitanScout/Pods-TitanScout-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GMStepper/GMStepper.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/STRatingControl/STRatingControl.framework",
+				"${BUILT_PRODUCTS_DIR}/SigmaSwiftStatistics/SigmaSwiftStatistics.framework",
+				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
+				"${BUILT_PRODUCTS_DIR}/fluid-slider/fluid_slider.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GMStepper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/STRatingControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SigmaSwiftStatistics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/fluid_slider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TitanScout/Pods-TitanScout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3C239121202A88E20016C036 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C23912D202A88E20016C036 /* SecondViewController.swift in Sources */,
+				3C92C5292068133C00C896BD /* MatchProgressCell.swift in Sources */,
+				3C676EE92077007800C4EE8F /* RankTableViewCell.swift in Sources */,
+				3CF31105204CEF7800AF3CC7 /* TTSegmentedControl.swift in Sources */,
+				3C2B4C4E202BE575009FDA48 /* Fetch.swift in Sources */,
+				3CDB232B206B0D160026FFC8 /* UIView+Constraints.swift in Sources */,
+				3CF31101204CE8F900AF3CC7 /* SegmentBit.swift in Sources */,
+				3CDB232C206B0D160026FFC8 /* SJGradientView.swift in Sources */,
+				3C315ABF203A0106007397AD /* StepBit.swift in Sources */,
+				3C920C35202F74CD00C6C786 /* GMStepper.swift in Sources */,
+				3C92C52B2068158900C896BD /* AutoMatchTableViewController.swift in Sources */,
+				3CBF1F0E202E65DA00815002 /* Switch.swift in Sources */,
+				3C676EE62076D10200C4EE8F /* DemoCell.swift in Sources */,
+				3C92C53120688A9600C896BD /* MLVerticalProgressView.swift in Sources */,
+				3C2B4C4C202BE549009FDA48 /* EditViewController.swift in Sources */,
+				3C2B4C52202BE9D8009FDA48 /* MatchTableViewCell.swift in Sources */,
+				3C92C52D20681F4800C896BD /* SCLAlertView.swift in Sources */,
+				3C676EE22076BA9000C4EE8F /* RankingsTableViewController.swift in Sources */,
+				3C920C37203271D100C6C786 /* AddMatchViewController.swift in Sources */,
+				3CE634EB203B72DA000C45F3 /* StopwatchBit.swift in Sources */,
+				3CE634E7203B5213000C45F3 /* Bit.swift in Sources */,
+				3C2B4C50202BE773009FDA48 /* MatchesTableViewController.swift in Sources */,
+				3C29B20120463E100051B582 /* TextFieldBit.swift in Sources */,
+				3C29B20320463F0A0051B582 /* DividerBit.swift in Sources */,
+				3CBF1F14202F655100815002 /* StatsTableViewController.swift in Sources */,
+				3C92C52F2068801B00C896BD /* AutoMatchTableViewCell.swift in Sources */,
+				3CBF1F12202E75FA00815002 /* TeamTableViewCell.swift in Sources */,
+				3CB6F09F2037AFD1005B86E5 /* SweetAlert.swift in Sources */,
+				3C1A93BA2070394300E4BCE4 /* StarBit.swift in Sources */,
+				3C0BC5962033997700D6D71D /* GrowingTextView.swift in Sources */,
+				3CBF1F16202F66A800815002 /* ChartsViewController.swift in Sources */,
+				3CDB232A206B0D160026FFC8 /* SJFluidSegmentedControl.swift in Sources */,
 				3C239129202A88E20016C036 /* AppDelegate.swift in Sources */,
-				3C23912B202A88E20016C036 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +480,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -188,6 +488,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -238,6 +539,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -245,6 +547,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -276,11 +579,13 @@
 		};
 		3C23913A202A88E20016C036 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A93BDBD61D6A20F83E1AF3AC /* Pods-TitanScout.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8KCS923ZZP;
 				INFOPLIST_FILE = TitanScout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Fowler.TitanScout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,11 +596,13 @@
 		};
 		3C23913B202A88E20016C036 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 612A457E617CE73D783D3907 /* Pods-TitanScout.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8KCS923ZZP;
 				INFOPLIST_FILE = TitanScout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Fowler.TitanScout;
 				PRODUCT_NAME = "$(TARGET_NAME)";

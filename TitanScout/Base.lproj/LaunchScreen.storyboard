@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14092" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14081.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,13 +18,41 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xRj-G8-eAd">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TitanRoboticsLogo" translatesAutoresizingMaskIntoConstraints="NO" id="5jp-3c-JNM">
+                                        <rect key="frame" x="76" y="222" width="222" height="222"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="5jp-3c-JNM" secondAttribute="height" multiplier="1:1" id="o5E-3g-N3v"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="5jp-3c-JNM" secondAttribute="trailing" constant="77" id="3rz-ti-3tF"/>
+                                    <constraint firstItem="5jp-3c-JNM" firstAttribute="centerX" secondItem="xRj-G8-eAd" secondAttribute="centerX" id="CZ8-Zh-GgC"/>
+                                    <constraint firstItem="5jp-3c-JNM" firstAttribute="centerY" secondItem="xRj-G8-eAd" secondAttribute="centerY" id="iBN-BO-1kG"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xRj-G8-eAd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ezg-zI-RWQ"/>
+                            <constraint firstItem="xRj-G8-eAd" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="aj6-Gd-Ovw"/>
+                            <constraint firstItem="xRj-G8-eAd" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="q7a-af-val"/>
+                            <constraint firstItem="xRj-G8-eAd" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="rjC-i3-QKD"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="50.724637681159422" y="374.18478260869568"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="TitanRoboticsLogo" width="2295" height="2296"/>
+    </resources>
 </document>
